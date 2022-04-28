@@ -1,0 +1,8 @@
+#Connection to MySQL
+MYSQL_DRIVER=com.mysql.cj.jdbc.Driver
+MYSQL_CONN_URL=jdbc:mysql://thomas.sdab.sn/radius?user=radtool&password=r@d!us&serverTimezone=UTC
+
+#Logger parameters
+log_size=5000000
+log_count=10
+log_path=D:\\intellij-workspace\\radiustool\\target\\radiustool-log.%g.txt
